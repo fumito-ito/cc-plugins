@@ -1,5 +1,5 @@
 {
-    "name": "gemini",
+    "name": "daily-use-gemini",
     "description": "Plugins to use Gemini CLI with Claude Code",
     "version": "1.0.0",
     "author": {
