@@ -5,13 +5,13 @@
     },
     "plugins": [
         {
-            "name": "gemini",
-            "source": "./plugins/daily-use-gemini",
+            "name": "daily-use.gemini",
+            "source": "./plugins/gemini",
             "description": "Plugins to use Gemini CLI with Claude Code"
         },
         {
-            "name": "gh",
-            "source": "./plugins/daily-use-gh",
+            "name": "daily-use.gh",
+            "source": "./plugins/gh",
             "description": "Plugins to use gh CLI with Claude Code"
         }
     ]
