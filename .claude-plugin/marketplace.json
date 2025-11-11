@@ -6,12 +6,12 @@
     "plugins": [
         {
             "name": "gemini",
-            "source": ".plugins/gemini",
+            "source": "./plugins/gemini",
             "description": "Plugins to use Gemini CLI with Claude Code"
         },
         {
             "name": "gh",
-            "source": ".plugins/gh",
+            "source": "./plugins/gh",
             "description": "Plugins to use gh CLI with Claude Code"
         }
     ]
