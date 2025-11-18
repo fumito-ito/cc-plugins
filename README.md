@@ -5,8 +5,8 @@ A collection of custom commands and plugins for extending Claude Code capabiliti
 ## Features
 
 ### Gemini CLI Integration (`daily-use.gemini`)
-- **Gemini Discuss** (`/discuss-with-gemini`): Conduct in-depth discussions about your current work with Gemini AI, enhancing Claude Code's accuracy through multi-perspective analysis and iterative refinement
-- **Gemini Search** (`/gemini-search`): Use Google's Gemini CLI for web searches instead of Claude's built-in web search tool
+- **Gemini Discuss** (`/daily-use.gemini:discuss`): Conduct in-depth discussions about your current work with Gemini AI, enhancing Claude Code's accuracy through multi-perspective analysis and iterative refinement
+- **Gemini Search** (`/daily-use.gemini:search`): Use Google's Gemini CLI for web searches instead of Claude's built-in web search tool
 
 ### gh CLI Integration (`daily-use.gh`)
 - **GitHub Issue Creator** (`/daily-use.gh:create-issue`): Create GitHub issues from text with automatic validation, clarification, and translation capabilities
