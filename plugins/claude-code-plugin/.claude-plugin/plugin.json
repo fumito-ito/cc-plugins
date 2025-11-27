@@ -1,0 +1,8 @@
+{
+    "name": "daily-use.claude-code-plugin",
+    "description": "Utilities for Claude Code Plugin Development",
+    "version": "1.0.0",
+    "author": {
+        "name": "Fumito Ito"
+    }
+}

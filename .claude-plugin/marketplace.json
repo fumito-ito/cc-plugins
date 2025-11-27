@@ -13,6 +13,11 @@
             "name": "gh",
             "source": "./plugins/gh",
             "description": "Plugins to use gh CLI with Claude Code"
+        },
+        {
+            "name": "claude-code-plugin",
+            "source": "./plugins/claude-code-plugin",
+            "description": "Utilities for Claude Code Plugin Development"
         }
     ]
 }
