@@ -58,13 +58,11 @@ Assumptions:
 1. Retrieve all review comments using:
 
    ```bash
-   gh api "repos/{owner}/{repo}/pulls/${pr_number}/comments" --paginate
+   gh api "repos/{owner}/{repo}/pulls/${pr_number}/comments" --paginate > ./.claude/tmp/{pr_number}-all-review-cooments.json
    ```
 
 2. If the result is empty:
    - Inform user and exit.
-
-3. Keep this JSON in memory for later steps.
 
 ---
 
@@ -187,7 +185,8 @@ Use:
 
 ```bash
 gh api repos/{owner}/{repo}/pulls/comments/{comment_id}/replies \
-  -f body='YOUR_REPLY'
+  -f body='YOUR_REPLY' \
+  -F in_reply_to={comment_id}
 ```
 
 Before executing:
